@@ -1,0 +1,86 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+
+# Debug files
+*.d
+*.dwo
+*.pdb
+*.ilk
+
+# Fortran module files
+*.mod
+*.smod
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+Makefile
+
+Debug/
+PruebaThreads/x64
+x64/
+x64/Debug/
+*.idb
+*.tlog
+*.obj
+*.pdb
+
+# IDE / Editor files
+.vscode/
+*.code-workspace
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.log
+*.tmp
+*.swp
+
+# Visual Studio
+.vs/
+v17/
