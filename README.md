@@ -14,7 +14,9 @@ Este proyecto consiste en una serie de ejercicios de paralelización en OpenMP. 
   
 ### Ejercicio 1: Dado un algoritmo, calcular su versión paralela.
 
-La paralelizaci
+La versión paralela de este ejercicio se llevó a cabo en clase. Como ya vimos, el tiempo de paralelización no mejoró respecto a la secuencial. Para un vector de 30 elementos, el tiempo secuencial era de 5,0012e-07 segundos, mientras que la versión paralela duraba 0,239287 segundos. En otras palabras, 0,0239282 segundos más que la secuencial. Lo mismo pasa para diferentes tamaños de vectores, en todos los casos la versión con hilos dura más que la secuencial.
+
+Esto se debe a que no todo el bucle es paralelizable. Al haber dependencias entre valores del vector solo la parte sin dependencias se pueda paralelizar. Esto hace que la sincronización de hilos o el *overhead* tenga más carga que el algoritmo en sí. Por tanto, no merece paralelizar este código, ya que no se obtiene mejoría.
 
   
   
