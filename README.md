@@ -49,6 +49,9 @@ A diferencia del ejercicio 2, el caso en el que se ha obtenido mejor rendimiento
 En conclusión, para problemas pequeños como este, es contraproducente utilizar muchos hilos ya que puede aumentar el coste temporal.
 
 
+
+## Grupo 2
+
 ### Ejercicio 6: Programar el Juego de la Vida.
 
 En este ejercicio se han mantenido los experimentos del ejercicio 2. Aún así, para limitar el tiempo de ejecución del programa se han ejecutado 10 iteraciones del juego por cada prueba. 
