@@ -1,4 +1,4 @@
-  
+Para la correcta visualización de este readme, visitar  https://github.com/olaaaiap/ParalelizacionOpenMP?tab=readme-ov-file
   
 # Ejercicios de paralelización en OpenMP
 
